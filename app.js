@@ -25,7 +25,7 @@ var httpsServer = https.createServer({
 httpServer.listen(ports.http, function (err) {
   if (err) return console.error(err.stack);
   console.log('Runnning http  server on :%d', ports.http);
-  httpsServer.listen(443, function (err) {
+  httpsServer.listen(ports.https, function (err) {
     if (err) return console.error(err.stack);
     console.log('Runnning https server on :%d', ports.https);
   });
