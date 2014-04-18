@@ -1,0 +1,11 @@
+{
+  "name"         : "httpandhttps",
+  "version"      : "0.0.1",
+  "description"  : "Boilerplate for running http and https express.js servers",
+  "main"         : "app.js",
+  "author"       : "Aleksey Smolenchuk <lxe@lxe.co>",
+  "license"      : "ISC",
+  "dependencies" : {
+    "express": "^4.0.0"
+  }
+}
